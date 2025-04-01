@@ -35,4 +35,10 @@ img {
 
 button {
   font: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+address {
+  font-style: initial;
 }
