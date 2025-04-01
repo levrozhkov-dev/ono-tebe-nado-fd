@@ -15,14 +15,23 @@
   line-height: 120%;
 }
 
+.default__link {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
 .section__title {
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
 }
 
-.menu-link_active {
-  text-decoration: none;
+.link_active {
+  border-bottom: none;
+}
+
+.no-bullit {
+  list-style: none;
 }
 
 .overlay {
@@ -58,10 +67,6 @@
   display: flex;
   gap: 33px;
   list-style: circle;
-}
-
-.header__links-list-item_no-bullit {
-  list-style: none;
 }
 
 .header__logo {
@@ -241,10 +246,6 @@
 .footer__menu {
   font-size: 18px;
   text-align: center;
-}
-
-.footer__menu-list {
-  list-style-type: none;
 }
 
 .footer__social-list {
